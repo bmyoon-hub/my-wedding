@@ -19,27 +19,27 @@ const CONFIG = {
 
   // ── 메인 (히어로) ──
   groom: {
-    name: "길동",
-    lastName: "홍",
-    fullName: "홍길동",
-    father: "홍판서",
-    mother: "춘섬",
+    name: "영훈",
+    lastName: "김",
+    fullName: "김영훈",
+    father: "김00",
+    mother: "김00",
     fatherDeceased: false, // 故인이면 true
     motherDeceased: false,
   },
 
   bride: {
-    name: "영희",
-    lastName: "김",
-    fullName: "김영희",
-    father: "김철수",
-    mother: "이미영",
+    name: "보미",
+    lastName: "윤",
+    fullName: "윤보미",
+    father: "윤원상",
+    mother: "설금례",
     fatherDeceased: false,
     motherDeceased: false,
   },
 
   wedding: {
-    date: "2025-05-17",        // YYYY-MM-DD
+    date: "2026-12-12",        // YYYY-MM-DD
     time: "13:00",             // HH:MM (24시간)
     dayOfWeek: "토요일",
     venue: "더 채플앳 청담",
@@ -72,14 +72,14 @@ const CONFIG = {
   // ── 마음 전하실 곳 ──
   accounts: {
     groom: [
-      { role: "신랑", name: "홍길동", bank: "신한은행", number: "110-123-456789" },
-      { role: "아버지", name: "홍판서", bank: "국민은행", number: "123-45-6789012" },
-      { role: "어머니", name: "춘섬", bank: "우리은행", number: "1002-345-678901" },
+      { role: "신랑", name: "김영훈", bank: "신한은행", number: "110-123-456789" },
+      { role: "아버지", name: "김00", bank: "국민은행", number: "123-45-6789012" },
+      { role: "어머니", name: "김00", bank: "우리은행", number: "1002-345-678901" },
     ],
     bride: [
-      { role: "신부", name: "김영희", bank: "하나은행", number: "234-56-7890123" },
-      { role: "아버지", name: "김철수", bank: "농협", number: "301-0123-4567-01" },
-      { role: "어머니", name: "이미영", bank: "기업은행", number: "012-345678-01-012" },
+      { role: "신부", name: "윤보미", bank: "하나은행", number: "234-56-7890123" },
+      { role: "아버지", name: "윤원상", bank: "농협", number: "301-0123-4567-01" },
+      { role: "어머니", name: "설금례", bank: "기업은행", number: "012-345678-01-012" },
     ],
   },
 
@@ -87,12 +87,12 @@ const CONFIG = {
   kakaoShare: {
     // Kakao Developers 앱키 (JavaScript 키)
     appKey: "",
-    title: "홍길동 ♥ 김영희 결혼합니다",
-    description: "2025년 5월 17일 토요일 오후 1시\n더 채플앳 청담",
+    title: "김영훈 ♥ 윤보미 결혼합니다",
+    description: "2026년 12월 12일 토요일 오후 1시\n더 채플앳 청담",
   },
 
   meta: {
-    title: "홍길동 ♥ 김영희 결혼합니다",
-    description: "2025년 5월 17일 토요일 오후 1시, 더 채플앳 청담",
+    title: "김영훈 ♥ 윤보미 결혼합니다",
+    description: "2026년 12월 12일 토요일 오후 1시, 더 채플앳 청담",
   },
 };
